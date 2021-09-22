@@ -1,0 +1,47 @@
+Running /home/test/.cache/bazel/_bazel_test/48a6496a20d0b158b949351a60aea7a2/execroot/org_openmined_pir/bazel-out/k8-opt/bin/pir/cpp/benchmark
+Run on (4 X 2592 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x4)
+  L1 Instruction 32 KiB (x4)
+  L2 Unified 256 KiB (x4)
+  L3 Unified 12288 KiB (x4)
+Load Average: 11.91, 3.98, 1.41
+---------------------------------------------------------------------------------
+Benchmark                                       Time             CPU   Iterations
+---------------------------------------------------------------------------------
+PIRFixture/SetupDb/256                  100706100 ns    102477810 ns            6
+PIRFixture/SetupDb/512                  101511547 ns    103292589 ns            7
+PIRFixture/SetupDb/1024                 110925873 ns    112908684 ns            6
+PIRFixture/SetupDb/2048                 113995028 ns    116061752 ns            5
+PIRFixture/SetupDb/4096                 126176310 ns    128436438 ns            5
+PIRFixture/SetupDb/8192                 143986344 ns    146598528 ns            4
+PIRFixture/SetupDb/16384                194026152 ns    197505650 ns            3
+PIRFixture/SetupDb/32768                285526395 ns    290550277 ns            2
+PIRFixture/SetupDb/65536                468364120 ns    476859780 ns            2
+PIRFixture/ClientCreateRequest/256        1868647 ns      1902317 ns          370
+PIRFixture/ClientCreateRequest/512        1949499 ns      1984314 ns          367
+PIRFixture/ClientCreateRequest/1024       1932144 ns      1968297 ns          343
+PIRFixture/ClientCreateRequest/2048       1921825 ns      1957845 ns          335
+PIRFixture/ClientCreateRequest/4096       1880680 ns      1915761 ns          363
+PIRFixture/ClientCreateRequest/8192       1900215 ns      1935415 ns          373
+PIRFixture/ClientCreateRequest/16384      1920589 ns      1956572 ns          363
+PIRFixture/ClientCreateRequest/32768      1936864 ns      1964501 ns          355
+PIRFixture/ClientCreateRequest/65536      3712239 ns      1999421 ns          345
+PIRFixture/ServerProcessRequest/256      37374885 ns     37915049 ns           19
+PIRFixture/ServerProcessRequest/512      41530117 ns     42130541 ns           16
+PIRFixture/ServerProcessRequest/1024     55393659 ns     56189613 ns           13
+PIRFixture/ServerProcessRequest/2048     62413974 ns     63281236 ns           11
+PIRFixture/ServerProcessRequest/4096     90447992 ns     91753817 ns            8
+PIRFixture/ServerProcessRequest/8192    109647632 ns    111224213 ns            6
+PIRFixture/ServerProcessRequest/16384   175087988 ns    177597122 ns            4
+PIRFixture/ServerProcessRequest/32768   233267148 ns    236591436 ns            3
+PIRFixture/ServerProcessRequest/65536   409829259 ns    415322017 ns            2
+PIRFixture/ClientProcessResponse/256      3443449 ns      3492328 ns          198
+PIRFixture/ClientProcessResponse/512      3592304 ns      3643537 ns          185
+PIRFixture/ClientProcessResponse/1024     3611208 ns      3663364 ns          188
+PIRFixture/ClientProcessResponse/2048     3522122 ns      3565714 ns          196
+PIRFixture/ClientProcessResponse/4096     3460310 ns      3510358 ns          196
+PIRFixture/ClientProcessResponse/8192     3460423 ns      3509882 ns          197
+PIRFixture/ClientProcessResponse/16384    3476745 ns      3527418 ns          198
+PIRFixture/ClientProcessResponse/32768    3532978 ns      3583935 ns          193
+PIRFixture/ClientProcessResponse/65536    4109283 ns      4152762 ns          199
